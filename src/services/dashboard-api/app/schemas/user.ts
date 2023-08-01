@@ -13,7 +13,7 @@ export const AuthenticatedUserSchema = z.object({
     name: z.string(),
     token: z.string(),
     refreshToken: z.string(),
-    persmissions: PermissionsSchema,
+    permissions: PermissionsSchema,
 });
 
 export type AuthenticatedUser = z.infer<typeof AuthenticatedUserSchema>;

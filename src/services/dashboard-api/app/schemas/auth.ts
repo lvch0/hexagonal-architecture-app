@@ -12,4 +12,4 @@ export const PermissionsSchema = z.object({
 
 export type AuthDetails = z.infer<typeof AuthDetailsSchema>;
 
-export type Permissiones = z.infer<typeof PermissionsSchema>;
+export type Permissions = z.infer<typeof PermissionsSchema>;

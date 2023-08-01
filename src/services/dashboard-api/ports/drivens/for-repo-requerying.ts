@@ -1,4 +1,4 @@
-import { ExternalUser, RepoUser } from "../../../repository/app/schemas/user";
+import { ExternalUser } from "../../../repository/app/schemas/user";
 import { User } from "../../app/schemas";
 
 export interface ForRepoQuerying {

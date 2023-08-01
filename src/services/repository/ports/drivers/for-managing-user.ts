@@ -1,4 +1,4 @@
-import { ExternalUser, RepoUser, User } from "../../app/schemas";
+import { ExternalUser, User } from "../../app/schemas";
 
 export interface ForManagingUser {
   getUser(email: string): Promise<ExternalUser>;
